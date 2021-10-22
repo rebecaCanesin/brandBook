@@ -56,6 +56,7 @@ a{
   font-family: inkFree;
   margin-left: 30px;
   font-size: 1.5em;
+  margin-top: 5px;
 }
 
 .local-home{
@@ -217,6 +218,39 @@ a{
   margin: 0px 25px 0 60px;
   font-size: 3.5em;
   text-align: center;
-  margin-bottom: 2em;
-  margin-top: 2em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.logo-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  background-image: url("./img/símbolo-verde.png");
+  background-repeat: no-repeat;
+  background-size: 40% 50%;
+  background-position: bottom left;
+}
+
+.logo-container-right{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  background-image: url("./img/símbolo-verde.png");
+  background-repeat: no-repeat;
+  background-size: 40% 50%;
+  background-position: bottom right;
+}
+
+.menu-float{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  background-color: #44270D;
 }
