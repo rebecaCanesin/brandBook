@@ -1,0 +1,222 @@
+.body-home{
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #B3C087;
+}
+
+@font-face {
+  font-family:'inkFree';
+  src:url("./fonts/ink-free-normal.ttf");
+}
+
+figure{
+  margin: 0;
+}
+
+.header-home{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #606C38;
+  padding: 20px;
+}
+
+.menu-home{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sub-menu-home{
+  display: none;
+  position: absolute;
+  list-style: none;
+  background-color: #44270D;
+  text-align: left;
+  padding: 0;
+  padding-right: 30px;
+}
+
+.menu-home li:hover ul, .menu-home li.over ul{
+  display: block;
+}
+
+.menu-list{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color:#FCEE9C;
+  font-family: inkFree;
+  margin-left: 30px;
+  font-size: 1.5em;
+}
+
+.local-home{
+  color:#FCEE9C;
+  font-family: inkFree;
+  margin-right: 10px;
+}
+
+.contact-container-home{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+
+.main-section-home{
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-container-home{
+  display: flex;
+  width: 50vw;
+  background-image: url("./img/símbolo-verde_marca.png");
+  background-repeat: no-repeat;
+  background-size: 80% 60%;
+  background-position: bottom left;
+  background-blend-mode: lighten;
+  justify-content: center;
+}
+
+.logo-home{
+  margin: 0;
+  padding: 0;
+  width: 100px;
+}
+
+.home-title{
+  font-family: inkFree;
+  font-weight: lighter;
+  color:#44270D;
+  margin: 0px 25px 0 60px;
+  font-size: 3.5em;
+  align-self: center;
+}
+
+.img-container-home{
+  width: 50vw;
+  margin: 0;
+  padding: 0;
+}
+
+.img-home{
+  width: 100%;
+  height: 86vh;
+}
+
+.main-section-about{
+  display: flex;
+  flex-direction: row;
+}
+
+.text-about{
+  font-family: Tahoma, sans-serif;
+  font-weight: normal;
+  font-size: 1.8em;
+  text-align: left;
+  color: #44270D;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.container-about{
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  justify-content: space-evenly;
+  background-image: url("./img/símbolo-verde_direita.png");
+  background-repeat: no-repeat;
+  background-size: 80% 60%;
+  background-position: bottom right;
+  background-blend-mode: lighten;
+}
+
+.img-container-about{
+  width: 40vw;
+  margin: 0;
+  padding: 0;
+}
+
+.text-brand{
+  font-family: Tahoma, sans-serif;
+  font-weight: normal;
+  font-size: 1.5em;
+  text-align: left;
+  color: #44270D;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.container-brand{
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  justify-content: space-evenly;
+  background-image: url("./img/símbolo-verde_marca.png");
+  background-repeat: no-repeat;
+  background-size: 80% 60%;
+  background-position: bottom left;
+  background-blend-mode: lighten;
+}
+
+.container-colors, .uses-container{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+  background-image: url("./img/símbolo-verde_marca.png");
+  background-repeat: no-repeat;
+  background-size: 40% 50%;
+  background-position: bottom left;
+  height: 80vh;
+}
+
+.palet-color, .uses-img{
+  align-self: center;
+}
+
+.examples-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  background-image: url("./img/símbolo-verde.png");
+  background-repeat: no-repeat;
+  background-size: 40% 50%;
+  background-position: bottom left;
+}
+
+.examples-container-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  background-image: url("./img/símbolo-verde.png");
+  background-repeat: no-repeat;
+  background-size: 40% 50%;
+  background-position: bottom right;
+}
+
+.example-img{
+  margin-left: 50px;
+}
+
+.section-title{
+  font-family: inkFree;
+  font-weight: lighter;
+  color:#44270D;
+  margin: 0px 25px 0 60px;
+  font-size: 3.5em;
+  text-align: center;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
