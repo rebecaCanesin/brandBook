@@ -254,3 +254,15 @@ a{
   top: 0;
   background-color: #44270D;
 }
+
+.wrong-uses-container{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  background-image: url("./img/símbolo-verde_marca.png");
+  background-repeat: no-repeat;
+  background-size: 40% 50%;
+  background-position: bottom left;
+  height: 80vh;
+}
