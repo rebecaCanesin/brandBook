@@ -266,3 +266,26 @@ a{
   background-position: bottom left;
   height: 80vh;
 }
+
+.section-title-tahoma{
+  font-family: tahoma;
+  font-weight: bold;
+  color:#44270D;
+  margin: 0px 25px 0 60px;
+  font-size: 3.5em;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.tipography-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  margin-left: 4em;
+  margin-right: 2em;
+  margin-bottom: 6em;
+  margin-top: 6em;
+}
